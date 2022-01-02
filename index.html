@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="calculator.css">
+</head>
+
+<body>
+    <p1 class="head center">Simple calculator</p1>
+    <div class="topb">
+        <p1 id="dis" class="num"></p1><br>
+    </div>
+
+    <div class="btn">
+        <button class="areabtn" onclick="display(8)" id="e">8</button>
+        <button class="areabtn" onclick="display(7)">7</button>
+        <button class="areabtn" onclick="display(9)">9</button>
+        <button class="areabtn del" onclick="display()">DEL</button><br>
+        <button class="areabtn" onclick="display(4)">4</button>
+        <button class="areabtn" onclick="display(5)">5</button>
+        <button class="areabtn" onclick="display(6)">6</button>
+        <button class="areabtn" onclick="display('+')">+</button><br>
+        <button class="areabtn" onclick="display(1)">1</button>
+        <button class="areabtn" onclick="display(2)">2</button>
+        <button class="areabtn" onclick="display(3)">3</button>
+        <button class="areabtn" onclick="display('-')">-</button><br>
+        <button class="areabtn" onclick="display()">.</button>
+        <button class="areabtn" onclick="display(0)">0</button>
+        <button class="areabtn" onclick="display('/')">/</button>
+        <button class="areabtn" onclick="display('*')">x</button><br>
+        <button class="areabtn" onclick="display('res')">Reset</button>
+        <button class="areabtn" onclick="display('=')">=</button>
+    </div>
+
+    <script src="calculatorShortCode.js"></script>
+    <!-- <script src="calculatorLargeCode.js"></script> -->
+
+</body>
+
+</html>
